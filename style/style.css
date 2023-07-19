@@ -31,6 +31,10 @@ body{
     font-weight: 700;
     margin-left: 20px;
 }
+.menu-title span{
+    color: #FF42A5;
+
+}    
 .menu-item{
     display: flex;
 }
@@ -164,6 +168,255 @@ nav li a{
     background: #00ddff;
 }
 
+/* Online game card section CSS */
+
+.online-game-container{
+    margin-top: 120px;
+}
+.online-game-card{
+    display: flex;
+    margin-left: 240px;
+}
+.online-game-card img{
+    margin-left: 24px;
+}
+
+.online-game-heading{
+    color: #0B0223;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+.online-game-heading span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.online-game-des{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+.card-des{
+    width: 342px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 24px;
+}
+
+/* Play instantly section CSS */
+.play-instant-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.play-text-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: right;
+    margin-left: 339px;
+    margin-bottom: 0px;
+}
+.play-text-heading span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-text-des{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 353px;
+    margin-left: 450px;
+    margin-right: 0px;
+    line-height: 30px;
+
+}
+
+.play-img{
+    margin-right: 200px;
+}
+.play-img-2{
+    position: absolute;
+    margin-left: -780px;
+    margin-top: 375px;
+}
+
+
+/* button section CSS */
+
+.btn-section{
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 150px;
+}
+.game-btn-left{
+    display: flex;
+    padding-top: 130px;
+    margin-left: 249px;
+    
+}
+.game-btn-1{
+    display: flex;
+    width: 231px;
+    height: 80px;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    
+}
+
+.game-btn-2{
+    display: flex;
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+    background: #fff;
+    margin-left: 37px;
+    cursor: pointer;
+}
+.game-btn-3{
+    display: flex;
+    border-radius: 50px;
+    background: #fff;
+    width: 248px;
+    height: 80px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.game-btn-4{
+    display: flex;
+    border-radius: 50px;
+    background: #fff;
+    width: 295px;
+    height: 80px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+.game-btn-5{
+    display: flex;
+    border-radius: 50px;
+    background: #fff;
+    width: 231px;
+    height: 80px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+.game-btn-right{
+    display: flex;
+    margin-left: 335px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.game-btn-6{
+    display: flex;
+    border-radius: 50px;
+    background: #fff;
+    width: 299px;
+    height: 80px;
+    cursor: pointer;
+}
+.game-btn-7{
+    display: flex;
+    border-radius: 50px;
+    background: #fff;
+    width: 317px;
+    height: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.game-btn-8{
+    display: flex;
+    border-radius: 50px;
+    background: #fff;
+    width: 244px;
+    height: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.game-btn-9{
+    display: flex;
+    border-radius: 50px;
+    background: #fff
+    ;
+    width: 262px;
+    height: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.btn-img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+.btn-des{
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 29px;
+}
+.game-btn-1:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-2:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-3:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-4:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-5:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-6:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-7:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-8:hover{
+    border: 2px solid #F948B2;
+    
+}
+.game-btn-9:hover{
+    border: 2px solid #F948B2;
+    
+}
+.btn-des:hover{
+    color: #F948B2;
+}
+
+
+
+
+
+
+
 
 
 
@@ -178,6 +431,7 @@ nav li a{
 @media screen and (max-width: 576px) {
     .nav-bar{
         flex-direction: column;
+        padding: 0px 0px;
     }
     .menu-item{
         flex-direction: column;
@@ -186,20 +440,23 @@ nav li a{
     .banner-section{
         flex-direction: column-reverse;
     }
+    .banner-photo{
+        padding-right: 0px;
+    }
     .banner-photo img{
         width: 360px;
         height: 341px;
-        margin: 70px 0px 0px 60px;
+        /* margin: 70px 0px 0px 60px; */
     }
     .banner-content{
-        padding: 35px 100px;
+        padding: 35px 0px;
     }
     .banner-container{
         background-image: url(/images/Group\ 14.png);
-        width: 450.5px;
-        height: 350px; 
+        width: 425px;
+        height: 330.19px; 
         margin-top: 50px;
-        margin-left: 15px;
+        margin-left: 0px;
     }
 
     .menu-item > ul{
